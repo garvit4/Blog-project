@@ -1,0 +1,134 @@
+
+		.header_content {
+
+			width: 70%;
+			margin-left: 20%;
+
+		}
+
+		.name {
+
+			width: 100%;
+			margin-left: 25%;
+			text-align: center;
+			padding-top: 5%;
+
+		}
+
+		.flex {
+
+			display: flex;
+
+		}
+
+		.logo_position {
+
+			width: 100%;
+			margin-left: -14%;
+			min-width: 46%;
+			align-self: center;
+
+		}
+
+		.sidebar {
+
+			float: left;
+		    width: 10%;
+    		margin-left: 5%;
+
+		}
+
+		.side_div1 {
+
+			width: 100%;
+			height: 100px;
+			background-color: lightblue; 
+
+		}
+
+		.container {
+
+			width: 72%;
+			float: left;
+			margin-left: 5%;
+			margin-top: 2%;
+
+		}
+		.cont_image_width {
+
+			width: 98%;
+
+		}
+
+		.fw {
+
+			float: left;
+    		width: 33%;
+
+		}
+
+		.fw_width {
+
+			width: 95%;
+
+		}
+
+		.center {
+
+			text-align: center;
+
+		}
+
+		.acenter {
+
+			margin-left: 28%;
+			font-size: 2em;
+
+		}
+
+
+		@media screen and (max-width: 1250px) {
+
+			.header_content .name {
+
+				margin-left: 0%;
+
+			}
+
+			.container .wrapper .fw {
+
+				width: 100%;	
+
+			}
+
+		}
+
+		@media screen and (max-width: 900px) {
+
+			.sidebar .side h2{
+				font-size: 1em;
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+
+			.header_content .name h1 {
+
+				font-size: 1.2em;
+
+			}
+
+			.header_content .name h3 {
+
+				font-size: 0.5em;
+
+			}
+
+			.sidebar .side  h2 {
+
+				font-size: 0.5em;
+				color: red;
+
+			}
+
+		}
